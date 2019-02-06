@@ -1,0 +1,22 @@
+/* begin styles */
+h1 {
+  color: #f36f64;
+}
+
+body {
+  background-color: whitesmoke;
+  text-align: justify;
+}
+
+/* div {
+    padding: 25px
+  } */
+
+.question p {
+  color: #f36f64;
+  font-style: strong;
+}
+
+.answer p {
+  color: black;
+}
