@@ -1,34 +1,41 @@
-
 /* reset styles */
 
 * {
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  /* begin styles */
+  margin: 0px;
+  padding: 100px;
+}
 
-  body {
-    background-color: whitesmoke;
-    text align: justify;
-  }
-  div {
-      padding: 25px
-  }
-  div.title {
-    font-size: 150%;
-    color: #f36f64;
-  }
-  div.exercises {
-    font-size: 150%;
-    color: #f36f64;
-  }
+/* begin styles */
+
+body {
+  background-color: whitesmoke;
+  text align: justify;
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-  div.weekly-exercises {
-    font-size: 150%;
-    color: #f36f64;
+
+div {
+  padding: 25px
 }
-  div.projects {
-    font-size: 150%;
-    color: #f36f64;
+
+div.title {
+  font-size: 150%;
+  color: #f36f64;
+}
+
+div.exercises {
+  font-size: 150%;
+  color: #f36f64;
+}
+}
+
+div.weekly-exercises {
+  font-size: 150%;
+  color: #f36f64;
+}
+
+div.projects {
+  font-size: 150%;
+  color: #f36f64;
 }
