@@ -12,11 +12,12 @@ body {
     padding: 25px
   } */
 
-.question p {
+.question {
   color: #f36f64;
-  font-style: strong;
+  font-style: bold;
+  font-family:
 }
 
-.answer p {
+.answer {
   color: black;
 }
