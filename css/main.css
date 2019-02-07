@@ -1,7 +1,7 @@
 /* begin styles */
 
 body {
-  background-color: whitesmoke;
+  background-color: white;
   text align: justify;
   font-family: neue-haas-grotesk-text, sans-serif;
   font-weight: 400;
@@ -14,7 +14,7 @@ body {
   color: #f36f64;
 }
 
-.exercises {
+h3 {
   font-size: 150%;
   color: #f36f64;
 }
@@ -23,21 +23,21 @@ ul {
   list-style: none;
 }
 
-.link-1:link {
+a:link {
   list-style-position: inside;
   font-weight: bold;
   text-decoration: none;
   color: darkgrey;
 }
 
-.link-1:visited {
+a:visited {
   list-style-position: inside;
   font-weight: bold;
   text-decoration: none;
-  color: darkgrey;
+  color: darkgray;
 }
 
-.link-1:hover {
+a:hover {
   list-style-position: inside;
   font-weight: bold;
   text-decoration: none;
