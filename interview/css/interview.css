@@ -1,5 +1,19 @@
 /* begin styles */
 
+#menu {
+  color: #b5bab6;
+  position: inside;
+  text-align: justify;
+  margin-top: -12px;
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-left: 50px;
+}
+
+.m {
+  margin-top: -10px;
+}
 
 body {
   background-color: white;
