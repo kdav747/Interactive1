@@ -1,16 +1,27 @@
 /* begin styles */
-h1 {
-  color: #f36f64;
-}
+
 
 body {
   font-family: neue-haas-grotesk-text, sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: whitesmoke;
+  background-color: white;
   text-align: justify;
   padding: 25px;
   padding-right: 300px;
+}
+
+
+h1 {
+  color: #f36f64
+}
+
+.interview {
+  color: #b5bab6
+}
+
+.campic {
+  float: right
 }
 
 /* div {
@@ -18,10 +29,10 @@ body {
   } */
 
 .question {
-  color: #f36f64;
+  color: #494843;
   font-style: bold;
 }
 
 .answer {
-  color: black;
+  color: #b5bab6;
 }
