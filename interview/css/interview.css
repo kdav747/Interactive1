@@ -71,8 +71,8 @@ h3 {
   font-style: normal;
   font-size: 110%;
   font-weight: 700;
-  padding-left: 850px;
-  padding-right: 280px;
+  padding-left: 852.5px;
+  padding-right: 277.5px;
   margin-top: -30px;
   color: #f36f64;
 }
@@ -99,13 +99,28 @@ h3 {
   margin-top: -12px;
 }
 
-#extra {
-  font-size: 55%;
-  font-weight: 100;
+#extrastuff {
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #f36f64;
+  font-size: 150%;
+  padding-top: 0px;
+  text-align: justify;
+  padding-left: 280px;
+  padding-right: 880px;
+  margin-top: -20px;
+}
+
+.extra {
   font-family: neue-haas-grotesk-text, sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin-top: -422px;
   padding-left: 280px;
   padding-right: 880px;
-  color: #b5bab6;
+  color: #f36f64;
+  font-style: bold;
+  text-align: justify;
+  margin-top: 25px;
 }
