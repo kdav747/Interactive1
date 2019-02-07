@@ -6,42 +6,46 @@ body {
   font-family: neue-haas-grotesk-text, sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding-left: 35px;
-  padding-top: 10px;
-  margin: 5px;
+  padding-top: 45px;
 }
 
 .title {
-  font-size: 50%;
-  text-align: center;
+  font-size: 55%;
+  font-weight: 100;
+  text-align: justify;
+  padding-left: 280px;
+  padding-right: 880px;
   color: #b5bab6;
 }
 
 p {
   color: #f36f64;
   font-weight: 400;
+  font-size: 100%;
   padding-top: 0px;
   text-align: justify;
-  padding-left: 580px;
-  padding-right: 580px;
+  padding-left: 280px;
+  padding-right: 880px;
 
 }
 
 h3 {
   color: #494843;
+  font-size: 110%;
   margin-top: 25px;
   text-align: justify;
-  padding-left: 580px;
-  padding-right: 580px;
+  padding-left: 280px;
+  padding-right: 880px;
 }
 
 ul {
   list-style: none;
+  font-size: 110%;
   padding-inline-start: 0%;
-  margin-top: -10px;
+  margin-top: -18px;
   text-align: justify;
-  padding-left: 580px;
-  padding-right: 580px;
+  padding-left: 280px;
+  padding-right: 880px;
 }
 
 a:link {
@@ -63,16 +67,16 @@ a:hover {
 }
 
 #exercise {
-  font-size: 135%;
+  font-size: 155%;
   color: #494843;
 }
 
 #weekly-exercises {
-  font-size: 135%;
+  font-size: 155%;
   color: #494843;
 }
 
 #projects {
-  font-size: 135%;
+  font-size: 155%;
   color: #494843;
 }

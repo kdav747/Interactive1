@@ -2,37 +2,110 @@
 
 
 body {
+  background-color: white;
+  padding-top: 45px;
+}
+
+.white {
+  color: white
+}
+
+h2 {
   font-family: neue-haas-grotesk-text, sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: white;
+  color: #f36f64;
+  font-size: 150%;
+  padding-top: 0px;
   text-align: justify;
-  padding: 25px;
-  padding-right: 300px;
+  padding-left: 280px;
+  padding-right: 880px;
+  margin-top: -20px;
 }
 
-
-h1 {
-  color: #f36f64
+h3 {
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #f36f64;
+  font-size: 150%;
+  padding-top: 0px;
+  text-align: justify;
+  padding-left: 280px;
+  padding-right: 880px;
 }
 
 .interview {
-  color: #b5bab6
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 55%;
+  font-weight: 100;
+  text-align: justify;
+  padding-left: 280px;
+  padding-right: 880px;
+  color: #b5bab6;
 }
 
-.campic {
-  float: right
+#qanda {
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: -422px;
+  padding-left: 280px;
+  padding-right: 880px;
 }
 
-/* div {
-    padding: 25px
-  } */
+#quanda2 {
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: -330px;
+  padding-left: 558px;
+  padding-right: 610px;
+}
+
+.camis {
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 110%;
+  font-weight: 700;
+  padding-left: 850px;
+  padding-right: 280px;
+  margin-top: -30px;
+  color: #f36f64;
+}
+
+#campic {
+  float: right;
+  height: 350px;
+  width: 350px;
+  padding-right: 500px;
+  margin-top: -410px;
+}
 
 .question {
   color: #494843;
   font-style: bold;
+  text-align: justify;
+  margin-top: 25px;
 }
 
 .answer {
+  color: #b5bab6;
+  position: inside;
+  text-align: justify;
+  margin-top: -12px;
+}
+
+#extra {
+  font-size: 55%;
+  font-weight: 100;
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 280px;
+  padding-right: 880px;
   color: #b5bab6;
 }
