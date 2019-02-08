@@ -1,6 +1,6 @@
 /* begin styles */
 
-#menu {
+ul {
   color: #b5bab6;
   position: inside;
   text-align: justify;
@@ -11,7 +11,26 @@
   padding-left: 50px;
 }
 
-.m {
+
+
+a:link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #b5bab6;
+  margin-top: -5px;
+}
+
+a:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: #b5bab6;
+  margin-top: -5px;
+}
+
+a:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: #f36f64;
   margin-top: -5px;
 }
 
