@@ -9,9 +9,8 @@ ul {
   font-weight: 700;
   font-style: normal;
   padding-left: 50px;
+  text-decoration: none;
 }
-
-
 
 a:link {
   font-weight: bold;
