@@ -10,6 +10,7 @@ ul {
   font-style: normal;
   padding-left: 50px;
   text-decoration: none;
+  list-style: none;
 }
 
 a:link {
