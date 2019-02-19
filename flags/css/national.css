@@ -19,9 +19,12 @@ body {
 
 /* shapes */
 #circle {
+        position: absolute;
+        top: 80px;
+        left: 160px;
         width: 150px;
         height: 150px;
         background: linear-gradient(#f6a91c 0%, #0c223d 85%);
         border-radius: 75px;
-        top: 200px;
+        object-position: 150
 }
