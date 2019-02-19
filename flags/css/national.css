@@ -1,0 +1,27 @@
+/* reset styles */
+* {
+        margin: 0px;
+        padding: 0px;
+}
+
+/* make the background of the page black */
+body {
+        background: whitesmoke;
+}
+
+/* flag canvas */
+#canvas {
+        width: 500px;
+        height: 300px;
+        position: relative;
+        background: #0c223d;
+}
+
+/* shapes */
+#circle {
+        width: 150px;
+        height: 150px;
+        background: linear-gradient(#f6a91c 0%, #0c223d 85%);
+        border-radius: 75px;
+        top: 200px;
+}
