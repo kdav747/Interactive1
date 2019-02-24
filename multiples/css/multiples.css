@@ -4,13 +4,36 @@
     box-sizing: border-box;
 }
 
-body {
-    background: black;
+#desktop {
+    position: relative;
+    width: 80%;
 }
 
-#desktop {
-    display: inline;
-    color: white;
+#p {
+    display: block;
+    width: 85%;
+    height: auto;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+
+#pr {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 85%;
+    opacity: 0;
+    transition: .5s ease;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+#desktop:hover #pr {
+    opacity: 1;
 }
 
 #tablet,
@@ -20,14 +43,37 @@ body {
 }
 
 /* tablet */
-@media (min-width: 670px) and (max-width: 1024px) {
-    body {
-        background: grey;
-    }
-
+@media (min-width: 670px) and (max-width: 1080px) {
     #tablet {
         display: inline;
-        color: white;
+        width: 80%;
+    }
+
+    #panda2 {
+        display: block;
+        position: absolute;
+        width: 65%;
+        height: auto;
+        padding-top: 50px;
+        padding-left: 180px;
+    }
+
+    #panda2w {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: 65%;
+        opacity: 0;
+        transition: .3s ease;
+        padding-top: 50px;
+        padding-left: 180px;
+    }
+
+    #tablet:hover #panda2w {
+        opacity: 1;
     }
 
     #desktop,
@@ -38,14 +84,37 @@ body {
 }
 
 /* mobile */
-@media (max-width: 670px) {
-    body {
-        background: white;
-    }
-
+@media (max-width: 720px) {
     #mobile {
         display: inline;
-        color: black;
+        width: 80%;
+
+    }
+
+    #p3 {
+        display: block;
+        width: 65%;
+        height: auto;
+        padding-top: 50px;
+        padding-left: 180px;
+    }
+
+    #p3w {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: 65%;
+        opacity: 0;
+        transition: .1s ease;
+        padding-top: 50px;
+        padding-left: 180px;
+    }
+
+    #mobile:hover #p3w {
+        opacity: 1;
     }
 
     #desktop,
@@ -57,13 +126,16 @@ body {
 
 /* print */
 @media print {
-    body {
-        background: white;
-    }
-
     #print {
         display: inline;
-        color: black;
+        position: relative;
+    }
+
+    #pp {
+        height: auto;
+        width: 100%;
+        padding-top: 100px;
+        padding-left: 110px;
     }
 
     #desktop,
