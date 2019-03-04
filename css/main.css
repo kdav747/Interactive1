@@ -2,6 +2,23 @@
 
 body {
   background-color: white;
+}
+
+.bg-img {
+  background-image: url("../assets/kypic.png");
+  height: 500px;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  background-attachment: fixed
+    /* Resize the background image to cover the entire container */
+}
+
+#container {
+  margin: auto;
   text-align: left;
   font-family: neue-haas-grotesk-text, sans-serif;
   font-weight: 400;
@@ -16,6 +33,10 @@ body {
   text-align: justify;
   position: sticky;
   color: #b5bab6;
+}
+
+img {
+  width: 25vw;
 }
 
 p {
@@ -58,6 +79,7 @@ a:hover {
   font-weight: bold;
   text-decoration: none;
   color: #f36f64;
+  transition-duration: .5s;
 }
 
 #exercise {
