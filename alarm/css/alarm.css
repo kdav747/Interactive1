@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.static {
+    position: absolute;
+    display: block;
+    height: auto;
+    width: 80%;
+}
+
+.static:hover {
+    opacity: 0;
+}
+
+.active {
+    display: block;
+    position: absolute;
+    height: auto;
+    width: 80%;
+}
