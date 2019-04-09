@@ -1,0 +1,105 @@
+body {
+    background-color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 10px;
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-size: 10pt;
+    font-style: color white;
+    text-align: left;
+
+}
+
+.grid-container>div {
+    padding: 3px;
+}
+
+.item1 {
+    background-color: white;
+}
+
+.item2 {
+    background-color: #F2F3F4;
+    grid-row: 1;
+    grid-column: 2 / 9;
+}
+
+.item3 {
+    background-color: #F2F3F4;
+    grid-row: 2 / 8;
+    grid-column: 1;
+}
+
+.item4 {
+    background-color: #F2F3F4;
+    grid-row: 2 / 8;
+    grid-column: 2 / 9;
+}
+
+.itemc {
+    padding-left: 200px;
+    padding-top: 100px;
+}
+
+.item5 {
+    padding-left: 200px;
+}
+
+.item6 {
+    background-color: white;
+    padding-left: 200px;
+}
+
+#logo {
+    width: 5%;
+    float: left;
+    padding: 0px;
+}
+
+#dude {
+    width: 1.5%;
+    float: right;
+    padding-left: 20px;
+    padding-top: 10px
+}
+
+#notify {
+    width: 1.5%;
+    float: right;
+    padding-left: 20px;
+    padding-top: 10px
+}
+
+#search {
+    width: 1.5%;
+    float: right;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+a:link {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: #5DAC81;
+    transition-duration: .1s;
+}
+
+tutorial for positioning and float ! ! display block css how to - top navigation bar w3 schools
